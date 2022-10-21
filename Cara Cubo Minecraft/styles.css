@@ -1,0 +1,892 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 320px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filas1, .filas2, .filas3, .filas4,
+.filas5, .filas6, .filas7, .filas8,
+.filas9, .filas10, .filas11, .filas12,
+.filas13, .filas14, .filas15, .filas16 {
+    display: flex;
+    flex-direction: row;
+}
+
+.filas1 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(131, 168, 56);
+}
+
+.filas1 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(144, 190, 52);
+}
+
+.filas1 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(144, 190, 52);
+}
+
+.filas1 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(114, 151, 40);
+}
+
+.filas1 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(134, 172, 60);
+}
+
+.filas1 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(134, 172, 60);
+}
+
+.filas1 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(134, 172, 60);
+}
+
+.filas1 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(164, 201, 90);
+}
+
+.filas1 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(134, 172, 60);
+}
+
+.filas1 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(114, 151, 40);
+}
+
+.filas1 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(114, 151, 40);
+}
+
+.filas1 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(157, 197, 78);
+}
+
+.filas1 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(149, 177, 93);
+}
+
+.filas1 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(149, 177, 93);
+}
+
+.filas1 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(157, 197, 78);
+}
+
+.filas1 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas2 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(109, 160, 7);
+}
+
+.filas2 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(125, 161, 52);
+}
+
+.filas2 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas2 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(155, 201, 65);
+}
+
+.filas2 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas2 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(154, 180, 102);
+}
+
+.filas2 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(134, 172, 60);
+}
+
+.filas2 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas2 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(134, 172, 60);
+}
+
+.filas2 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(114, 151, 40);
+}
+
+.filas2 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(114, 151, 40);
+}
+
+.filas2 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(138, 170, 73);
+}
+
+.filas2 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas2 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(157, 197, 78);
+}
+
+.filas2 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas2 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(133, 163, 73);
+}
+
+.filas3 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(125, 163, 49);
+}
+
+.filas3 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(149, 190, 65);
+}
+
+.filas3 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas3 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas3 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas3 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(161, 206, 71);
+}
+
+.filas3 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(161, 207, 70);
+}
+
+.filas3 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 150, 37);
+}
+
+.filas3 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(163, 194, 102);
+}
+
+.filas3 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(165, 192, 111);
+}
+
+.filas3 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(122, 148, 71);
+}
+
+.filas3 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(167, 201, 99);
+}
+
+.filas3 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(136, 167, 74);
+}
+
+.filas3 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas3 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(140, 168, 84);
+}
+
+.filas3 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(157, 189, 94);
+}
+
+.filas4 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(125, 163, 49);
+}
+
+.filas4 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(149, 190, 65);
+}
+
+.filas4 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(135, 163, 79);
+}
+
+.filas4 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(155, 106, 87);
+}
+
+.filas4 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(156, 182, 105);
+}
+
+.filas4 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(142, 182, 62);
+}
+
+.filas4 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas4 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(142, 182, 62);
+}
+
+.filas4 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(122, 172, 23);
+}
+
+.filas4 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas4 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas4 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(156, 187, 94);
+}
+
+.filas4 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(117, 165, 21);
+}
+
+.filas4 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(155, 106, 87);
+}
+
+.filas4 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas4 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(133, 161, 77);
+}
+
+.filas5 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas5 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(122, 155, 57);
+}
+
+.filas5 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas5 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas5 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(156, 182, 105);
+}
+
+.filas5 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas5 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(155, 106, 87);
+}
+
+.filas5 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas5 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(151, 185, 83);
+}
+
+.filas5 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(128, 83, 69);
+}
+
+.filas5 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(155, 106, 87);
+}
+
+.filas5 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas5 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas5 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas5 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas5 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(111, 158, 18);
+}
+
+.filas6 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas6 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas6 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas6 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas6 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas6 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas6 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(155, 106, 87);
+}
+
+.filas6 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas6 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas6 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(155, 106, 87);
+}
+
+.filas6 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas6 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(158, 117, 83);
+}
+
+.filas6 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(185, 138, 99);
+}
+
+.filas6 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas6 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(158, 117, 83);
+}
+
+.filas6 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas7 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas7 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas7 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(82, 79, 78);
+}
+
+.filas7 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas7 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas7 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas7 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas7 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(192, 129, 104);
+}
+
+.filas7 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas7 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(128, 89, 74);
+}
+
+.filas7 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas7 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(82, 79, 78);
+}
+
+.filas7 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(161, 122, 90);
+}
+
+.filas7 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas7 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas7 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(122, 81, 81);
+}
+
+.filas8 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas8 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas8 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas8 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas8 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(129, 85, 72);
+}
+
+.filas8 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(129, 85, 72);
+}
+
+.filas8 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(129, 85, 72);
+}
+
+.filas8 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas8 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas8 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(128, 89, 74);
+}
+
+.filas8 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas8 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(129, 85, 72);
+}
+
+.filas8 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(184, 141, 106);
+}
+
+.filas8 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 58, 58);
+}
+
+.filas8 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(150, 108, 76)
+}
+
+.filas8 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(170, 130, 107);
+}
+
+.filas9 .color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(126, 87, 72);
+}
+
+.filas9 .color2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas9 .color3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas9 .color4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(129, 85, 72);
+}
+
+.filas9 .color5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(129, 85, 72);
+}
+
+.filas9 .color6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas9 .color7 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(129, 85, 72);
+}
+
+.filas9 .color8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas9 .color9 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 105, 86);
+}
+
+.filas9 .color10 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(128, 89, 74);
+}
+
+.filas9 .color11 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(182, 128, 107);
+}
+
+.filas9 .color12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(145, 100, 86);
+}
+
+.filas9 .color13 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(184, 141, 106);
+}
+
+.filas9 .color14 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(161, 113, 98);
+}
+
+.filas9 .color15 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(114, 91, 73);
+}
+
+.filas9 .color16 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(114, 91, 73);
+}

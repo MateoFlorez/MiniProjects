@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-    width: 550px;
-    height: 750px;
+    width: 510px;
+    height: 710px;
     background-color: rgb(88, 88, 88);
     display: flex;
     align-items: center;
@@ -19,6 +19,11 @@ body {
     box-shadow: 1px 1px 20px rgb(0, 0, 0);
     padding: 10px;
     border-radius: 30px;
+    margin-top: 30px;
+}
+
+.container:hover {
+    transform: scale(1.05);
 }
 
 .card {
@@ -46,7 +51,7 @@ img {
 
 img:hover {
     filter: grayscale(0%);
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .imagenSecundaria {
@@ -69,4 +74,23 @@ img:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
     opacity: 1;
+}
+
+.texto {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: black; */
+}
+
+.icon {
+    float: right;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
