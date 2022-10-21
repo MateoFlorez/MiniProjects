@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+body {
+    background-color: #E2E2E0;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #E2E2E0;
+    width: 55rem;
+    height: 310px;
+    margin-top: 150px;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 1px 1px 20px gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile {
+    width: 22rem;
+    margin-right: 200px;
+}
+
+.segment {
+    width: 22rem;
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 35%;
+    box-shadow: 1px 1px 20px gray;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.social {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.descripcion2 {
+    margin-top: -15px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.socialmedia div {
+    margin-right: 18px;
+}
+
+.redes {
+    background-color: #FFF;
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-color: rgb(190, 190, 190);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.redes:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(23, 48, 129);
+    transition: 1s ease-out;
+
+}
+
+.segment{
+    margin-top: 40px;
+}
+
+.follow {
+    margin-top: 110px;
+    text-align: end;
+}
+
+.follow p {
+    font-size: 1.2rem;
+}
+
+.button {
+    float: right;
+}
+
+.barra {
+    background-color: #c7c7c7;
+    width: 100%;
+    border-radius: 15px;
+    height: 12px;
+}
+
+.porcentaje {
+    background-color: #F27B34;
+    width: 80%;
+    border-radius: 15px;
+    height: 12px;
+}
+
+.button {
+    height: 50px;
+    width: 130px;
+    margin-top: -10px;
+    background-color: #16243C;
+    color: #FFF;
+    border-radius: 8px;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #233d69;
+    border: none;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    transition: 1s ease-out;
+}
+
+.alerta {
+    float: right;
+}
