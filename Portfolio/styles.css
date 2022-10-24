@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    top: -1px;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+
+.espacio {
+    width: 100%;
+    height: 90px;
+}
+
+.container-nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    line-height: 80px;
+    z-index: 100;
+}
+
+.container-logo {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.container-logo h2 {
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.container-logo h2 span {
+    color: aqua;
+    font-weight: 700;
+}
+
+.links .link {
+    display: inline-block;
+}
+
+.links .link a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 25px;
+    letter-spacing: 3px;
+    transition: .7s;
+}
+
+.links .link a:hover {
+    color: rgb(78, 233, 233);
+}
+
+.toggle {
+    margin-right: 20px;
+    font-size: 30px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    transition: .5s;
+    display: none;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 800px) {
+    .toggle {
+        display: inline-block;
+    }
+
+    .links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: rgb(51, 51, 51);
+        text-align: center;
+        overflow: hidden;
+        height: calc(100vh - 80px);
+        width: 100%;
+        z-index: -1;
+        top: -100vh;
+        transition: .7s;
+    }
+
+    .active {
+        top: 80px;
+    }
+
+    .links .link:hover {
+        background: rgb(83, 83, 83);
+        cursor: pointer;
+    }
+}
+
+.home {
+    width: 100%;
+    height: 500px;
+}
+
+.titulo h1 {
+    font-size: 80px;
+    margin: 200px 80px;
+}
+
+.me {
+    margin: 250px 80px;
+}
+
+.me .name {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.me .frontend {
+    font-weight: 10;
+    font-size: 25px;
+}
+
+.aboutme {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+
+.container-aboutme .titulo h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    
+}
+
+.container-aboutme .myinfo .name {
+    margin-left: 80px;
+    margin-top: -50px;
+    font-size: 28px;
+}
+
+.container-aboutme .info {
+    width: 60%;
+    margin-left: 90px;
+    margin-top: 50px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.container-aboutme .info .infome {
+    font-size: 16px;
+}
+
+.myphoto {
+    margin-right: 80px;
+}
+
+.myphoto img{
+    width: 400px;
+    height: 500px;
+    border-radius: 50% 10% 50% 10%;
+    object-fit: cover;
+}
+
+.experience {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container-experience {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-eduexp h1{
+    font-size: 50px;
+    margin-left: 80px;
+}
+
+.education {
+    margin-left: 80px;
+    width: 100%;
+    margin-right: 80px;
+}
+
+.title-education {
+    font-size: 21px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.trabajo {
+    margin-bottom: 50px;
+}
+
+.titulo-trabajo {
+    font-size: 18px;
+}
+
+.descripcion {
+    font-size: 15px;
+}
+
+.title-experience {
+    font-size: 21px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.experiences {
+    width: 100%;
+    margin-right: 80px;
+}
+
+.programas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+}
+
+.title-programs h1{
+    font-size: 40px;
+}
+
+.container-programa {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.programa i {
+    font-size: 60px;
+    margin: 0 60px;
+}
+
+.programa p {
+    margin-top: 5px;
+}
+
+.programa {
+    text-align: center;
+    margin: 5px;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+}
+
+.title-projects h1{
+    margin-left: 80px;
+    font-size: 50px;
+}
