@@ -20,10 +20,10 @@
                 </div>
 
                 <ul class="links">
-                    <li class="link"><a href="#">Home</a></li>
-                    <li class="link"><a href="#">About me</a></li>
-                    <li class="link"><a href="#">Projects</a></li>
-                    <li class="link"><a href="#">Contact</a></li>
+                    <li class="link"><a href="#home">Home</a></li>
+                    <li class="link"><a href="#aboutme">About me</a></li>
+                    <li class="link"><a href="#projects">Projects</a></li>
+                    <li class="link"><a href="#contact">Contact</a></li>
                 </ul>
 
                 <div class="toggle">
@@ -33,21 +33,21 @@
         </nav>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="container-home">
             <div class="titulo">
-                <h1><span>Portfolio.</span></h1>
+                <h1><span class="portfolio" id="portfolio">My Portfolio.</span></h1>
             </div>
             <div class="me">
                 <p class="name"><span>Mateo Guisao</span></p>
-                <p class="frontend"><span>FrontEnd Developer</span></p>
+                <p class="frontend"><span>Front-End Developer</span></p>
             </div>
         </div>
     </section>
 
     <section class="espacio"></section>
 
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
         <div class="container-aboutme">
             <div class="titulo">
                 <h1><span>Me.</span></h1>
@@ -82,23 +82,23 @@
                         <h3><span>Bachiller Técnico - I. E. Alfonso López Pumarejo</span></h3>
                     </div>
                     <div class="descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellendus consequuntur adipisci tempore</p>
+                        <p>Bachiller técnico / 2016</p>
                     </div>
                 </div>
                 <div class="trabajo">
                     <div class="titulo-trabajo">
-                        <h3><span>Nombre trabajo</span></h3>
+                        <h3><span>CESDE</span></h3>
                     </div>
                     <div class="descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellendus consequuntur adipisci tempore dolorum, et ipsam, natus iusto magnam facilis odit excepturi nihil necessitatibus esse laboriosam quaerat alias vel autem?</p>
+                        <p>Técnico en Desarrollo de Software / 2019 - 2022</p>
                     </div>
                 </div>
                 <div class="trabajo">
                     <div class="titulo-trabajo">
-                        <h3><span>Nombre trabajo</span></h3>
+                        <h3><span></span></h3>
                     </div>
                     <div class="descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellendus consequuntur adipisci tempore dolorum, et ipsam, natus iusto magnam facilis odit excepturi nihil necessitatibus esse laboriosam quaerat alias vel autem?</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -108,26 +108,35 @@
                 </div>
                 <div class="trabajo">
                     <div class="titulo-trabajo">
-                        <h3><span>Alcaldía de Itagüi</span></h3>
+                        <h3><span>Python/Django Dev</span></h3>
+                    </div>
+                    <div class="cargo">
+                        <h4><span>Alcaldía de Itagüi / Sep. 2022 - Dec. 2022</span></h4>
                     </div>
                     <div class="descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellendus consequuntur adipisci tempore</p>
+                        <p>Python developer in RFID project to Municipality of Itagüi using Django framework</p>
                     </div>
                 </div>
                 <div class="trabajo">
                     <div class="titulo-trabajo">
-                        <h3><span>Nombre trabajo</span></h3>
+                        <h3><span>Customer Service</span></h3>
+                    </div>
+                    <div class="cargo">
+                        <h4><span>Gran Buffalo / Oct. 2018 - Jun 2021</span></h4>
                     </div>
                     <div class="descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellendus consequuntur adipisci tempore dolorum, et ipsam, natus iusto magnam facilis odit excepturi nihil necessitatibus esse laboriosam quaerat alias vel autem?</p>
+                        <p>Take orders from customers and manage the accounting of the restaurant.</p>
                     </div>
                 </div>
                 <div class="trabajo">
                     <div class="titulo-trabajo">
-                        <h3><span>Nombre trabajo</span></h3>
+                        <h3><span>Administrative Assistant</span></h3>
+                    </div>
+                    <div class="cargo">
+                        <h4><span>A+C Civil / Oct. 2021 - Nov. 2021</span></h4>
                     </div>
                     <div class="descripcion">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellendus consequuntur adipisci tempore dolorum, et ipsam, natus iusto magnam facilis odit excepturi nihil necessitatibus esse laboriosam quaerat alias vel autem?</p>
+                        <p>Supervise projects and employee control</p>
                     </div>
                 </div>
             </div>
@@ -161,8 +170,6 @@
                 <i class="devicon-python-plain"></i>
                 <p>Python</p>
             </div>
-        </div>
-        <div class="container-programa">
             <div class="programa">
                 <i class="devicon-visualstudio-plain"></i>
                 <p>VS Code</p>
@@ -184,7 +191,7 @@
 
     <section class="espacio"></section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="title-projects">
             <h1><span>My Projects</span></h1>
         </div>
@@ -201,22 +208,11 @@
                 <img src="../Proyecto Imagen/img/profile.jpg" alt="">
             </div>
         </div>
-        <div class="cards">
-            <div class="card">
-                <img src="../Proyecto Imagen/img/profile.jpg" alt="">
-            </div>
-            <div class="card">
-                <img src="../Proyecto Imagen/img/profile.jpg" alt="">
-            </div>
-            <div class="card">
-                <img src="../Proyecto Imagen/img/profile.jpg" alt="">
-            </div>
-        </div>
     </section>
 
     <section class="espacio"></section>
 
-    <footer>
+    <footer id="contact">
         <div>
             <h2>Contact</h2>
         </div>
